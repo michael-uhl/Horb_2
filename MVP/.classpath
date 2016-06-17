@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/commons-lang3-3.1.jar" sourcepath="lib/commons-lang3-3.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/MVP/lib/commons-lang3-3.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/swt.jar" sourcepath="lib/src.zip"/>
+	<classpathentry kind="lib" path="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/jfxrt.jar"/>
+	<classpathentry kind="lib" path="lib/qtjambi-4.6.3.jar"/>
+	<classpathentry kind="lib" path="lib/qtjambi-macosx-gcc-4.6.3.jar"/>
+	<classpathentry kind="lib" path="lib/qtjambi-util-4.6.3.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-api-2.3.jar" sourcepath="lib/log4j-api-2.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/MVP/lib/log4j-api-2.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

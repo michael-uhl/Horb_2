@@ -9,14 +9,14 @@ public class Main {
     public static void main(String[] args) { 
         Gericht gericht = new Salat(new Nudeln(new Hueftsteak())); 
         gericht.druckeBeschreibung(); 
-        //H웖tsteak, Nudeln, Salat 
-        System.out.println(" f웦 "+gericht.getPreis() + " Euro"); 
-        // f웦 19.75 Euro 
+        //H체ftsteak, Nudeln, Salat 
+        System.out.println(" f체r "+gericht.getPreis() + " Euro"); 
+        // f체r 19.75 Euro 
 
         gericht = new Suppe(gericht); 
         gericht.druckeBeschreibung(); 
-        //H웖tsteak, Nudeln, Salat, Suppe 
-        System.out.println(" f웦 "+gericht.getPreis() + " Euro"); 
-        // f웦 21.25 Euro 
+        //H체ftsteak, Nudeln, Salat, Suppe 
+        System.out.println(" f체r "+gericht.getPreis() + " Euro"); 
+        // f체r 21.25 Euro 
     } 
 }

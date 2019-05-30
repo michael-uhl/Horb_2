@@ -4,7 +4,7 @@ import decorator.Gericht;
 
 public class Hueftsteak implements Gericht {
 	public void druckeBeschreibung() {
-		System.out.print("HŸftsteak");
+		System.out.print("HÃ¼ftsteak");
 	}
 
 	public double getPreis() {
